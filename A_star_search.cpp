@@ -190,11 +190,4 @@ int main() {
   auto board = ReadBoardFile("1.board");
   auto solution = Search(board, init, goal);
   PrintBoard(solution);
-  // Tests
-  TestHeuristic();
-  TestAddToOpen();
-  TestCompare();
-  TestSearch();
-  TestCheckValidCell();
-  TestExpandNeighbors();
 }
